@@ -1,0 +1,12 @@
+pipeline {
+    -- test
+    ageny any
+
+    stages{
+        stage('Build'){
+            steps {
+                echo "build completed successfully"
+            }
+        }
+    }
+}
